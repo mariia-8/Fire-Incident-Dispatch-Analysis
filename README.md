@@ -4,9 +4,9 @@ of New York, New York holds the leading position in the country due to fire deat
 perform data exploration of Fire Incidents in NYC throughout different NYC boroughs to provide the
 government with useful information to improve their policy-making decisions.
 
-In the first section of the project, we developed a python script that runs on Docker to build and connect
-our EC2 instance to the Elastic search domain. This allows us to load over 5M records to the Elastic search
-index. The data can be publicly accessed from NYC Open Data. Our script supports the python command
+In the first section of the project, I developed a python script that runs on Docker to build and connect
+our EC2 instance to the Elastic search domain. This allows me to load over 5M records to the Elastic search
+index. The data can be publicly accessed from NYC Open Data. The script supports the python command
 line interface to send API requests.
 
 In addition, a docker image was created, containing the Dockerfile, python script, and all the
