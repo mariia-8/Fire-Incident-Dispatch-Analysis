@@ -13,12 +13,6 @@ In addition, a docker image was created, containing the Dockerfile, python scrip
 requirements.
 root@ip-172-31-11-99:/var/snap/amazon-ssm-agent/6312# docker build -t bigdataproject:1.0 .
 
-root@ip-172-31-11-99:/var/snap/amazon-ssm-agent/6312# docker run -e INDEX_NAME="fire" -e
-DATASET_ID="8m42-w767" -e APP_TOKEN="Jwia91fbXpcTHOJ35d9nRfg8L" -e
-ES_HOST="https://search-project1-mariia-v3rbklzow42rdb3ggcskze5gk4.us-east-2.es.amazonaws.com"
--e ES_USERNAME="mariiamohyla" -e ES_PASSWORD="cis-9760-Mariia" bigdataproject:1.0 --
-page_size=10 --num_pages=2
-
 ![image](https://user-images.githubusercontent.com/111792836/234894653-62dca3c4-05c6-4b5d-aadf-37fc8cba3fe8.png)
 
 I managed to successfully upload over 6M rows to the Elasticsearch index. This can be seen in the picture
