@@ -28,38 +28,38 @@ from January 2005 until July 2017 to answer the following questions:
 5. What are the most common types of incidents?
 6. What are the top 10 zip codes that tend to have serious fire incidents?
 
-1. Which borough has the highest number of incidents and how it changes over time?
+Which borough has the highest number of incidents and how it changes over time?
 ![image](https://user-images.githubusercontent.com/111792836/234894998-f496447b-1e98-4f28-a175-eff9e619578c.png)
 Brooklyn has the highest number of incidents while Staten Island has the lowest.
 
-2. What is the average incident response time for different group types of incidents with respect to
+What is the average incident response time for different group types of incidents with respect to
 the borough?
 ![image](https://user-images.githubusercontent.com/111792836/234895133-fe14d00e-ccd8-42ef-9ca9-283e46e8dd60.png)
 As we may notice highest average response time is observed in non-medical emergencies in all boroughs.
 On the other hand, structural fires have a significantly lower response time in all boroughs, except Staten
 Island. Brooklyn has the lowest response time in all categories, while Queens needs improvements.
 
-3. What is the long-term trend of fire incidents for the analyzed years?
+What is the long-term trend of fire incidents for the analyzed years?
 ![image](https://user-images.githubusercontent.com/111792836/234895273-650a4e97-cb9f-4bc5-953a-fa75547e750a.png)
 To identify the trend direction of the number of incidents over time, I have performed a moving average
 analysis. As you can see, on average number of incidents remained stable until the end of 2013. Since then,
 the moving average is increasing, showing an upward trend in the number of incidents. This may be caused
 by the urbanization trend.
 
-4. What is the average incident response time for each borough over time?
+What is the average incident response time for each borough over time?
 ![image](https://user-images.githubusercontent.com/111792836/234895399-54883047-7246-4bbb-a79a-dc7457d2c4e2.png)
 While looking at the histogram, we may observe that since the begging of 2005, the average response time
 has slightly decreased in all boroughs. Brooklyn holds first place in having the lowest response time
 compared to other boroughs, despite the fact that it has the highest number of incidents. Manhattan, Queens,
 Bronx, and Staten Island fire departments need to decrease their response time.
 
-5. What are the most common types of incidents?
+What are the most common types of incidents?
 ![image](https://user-images.githubusercontent.com/111792836/234895525-16fc3acf-e764-4b27-8bd0-8ed86620f7bc.png)
 Firefighters are obligated to respond to various complaints and aid people, as we can see the most popular
 complaints are medical and non-medical assistance. The government can utilize this information to equip
 locations with EMS providers, to balance out a load of emergency calls.
 
-6. What are the top 10 zip codes that tend to have serious fire incidents?
+What are the top 10 zip codes that tend to have serious fire incidents?
 ![image](https://user-images.githubusercontent.com/111792836/234895652-aab58608-a515-4131-a503-5512598e3564.png)
 I selected the top ten zip codes with the highest average number of engines assigned to the incident. I
 consider that these areas on average required more units compared to other zip codes. In most cases, the zip
